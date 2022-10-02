@@ -20,3 +20,7 @@ int y2 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите координату z2 ");
 int z2 = Convert.ToInt32(Console.ReadLine());
+
+double d = Math.Sqrt(Math.Pow(x2-x1,2)+Math.Pow(y2-y1,2)+Math.Pow(z2-z1,2));
+
+Console.WriteLine($"Расстояние между точками {Math.Round (d,2)}");
